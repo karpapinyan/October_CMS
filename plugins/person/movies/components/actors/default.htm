@@ -1,0 +1,6 @@
+{% set actors = __SELF__.actors %}
+<ul style="list-style-type: none; font-weight: 700">
+	{% for actor in actors %}
+		<li>{{actor.name}}  {{actor.lastname}}</li>
+	{% endfor %}
+</ul>

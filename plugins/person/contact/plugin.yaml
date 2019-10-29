@@ -1,0 +1,6 @@
+plugin:
+    name: 'person.contact::lang.plugin.name'
+    description: 'person.contact::lang.plugin.description'
+    author: person
+    icon: oc-icon-adjust
+    homepage: ''

@@ -1,0 +1,6 @@
+plugin:
+    name: 'person.profile::lang.plugin.name'
+    description: 'person.profile::lang.plugin.description'
+    author: person
+    icon: oc-icon-adjust
+    homepage: ''

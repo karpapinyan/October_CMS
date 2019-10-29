@@ -1,0 +1,20 @@
+plugin:
+    name: 'person.movies::lang.plugin.name'
+    description: 'person.movies::lang.plugin.description'
+    author: person
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: person/movies/movies
+        icon: icon-video-camera
+        sideMenu:
+            side-menu-item:
+                label: Genres
+                url: person/movies/genres
+                icon: icon-tag
+            side-menu-item2:
+                label: Actor
+                url: person/movies/actors
+                icon: icon-user

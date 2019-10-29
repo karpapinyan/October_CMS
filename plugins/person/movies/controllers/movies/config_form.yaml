@@ -1,0 +1,10 @@
+name: Movies
+form: $/person/movies/models/movie/fields.yaml
+modelClass: Person\Movies\Models\Movie
+defaultRedirect: person/movies/movies
+create:
+    redirect: 'person/movies/movies/update/:id'
+    redirectClose: person/movies/movies
+update:
+    redirect: person/movies/movies
+    redirectClose: person/movies/movies

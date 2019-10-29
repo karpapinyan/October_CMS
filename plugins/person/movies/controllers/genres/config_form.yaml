@@ -1,0 +1,10 @@
+name: Genres
+form: $/person/movies/models/genre/fields.yaml
+modelClass: Person\Movies\Models\Genre
+defaultRedirect: person/movies/genres
+create:
+    redirect: 'person/movies/genres/update/:id'
+    redirectClose: person/movies/genres
+update:
+    redirect: person/movies/genres
+    redirectClose: person/movies/genres

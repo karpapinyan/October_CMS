@@ -1,0 +1,29 @@
+title = "Homepage"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[actors]
+results = 0
+sortOrder = "name desc"
+
+[siteSearchInclude]
+==
+<form action="{{ 'search' | page }}" method="get">
+    <input name="q" type="text" placeholder="What are you looking for?" autocomplete="off">
+    <button type="submit">Search</button>
+</form>
+
+<h2>This is our home page </h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis necessitatibus recusandae tenetur harum maxime corrupti. Facilis, quidem, quis ea ad velit iure numquam atque aperiam ut ex vero ratione!</p>
+<p>Officia, voluptate, quibusdam, quae autem consequuntur doloribus dolor in eaque provident animi delectus odit molestias culpa nihil inventore optio iste eos iure ullam aspernatur tempora dolores aut maiores fugiat adipisci.</p>
+<p>Rerum, necessitatibus, expedita, saepe accusantium tenetur quod dolorem minus voluptas nostrum facilis quaerat perferendis veniam tempore quis aliquid. Blanditiis, veniam voluptas placeat eaque aspernatur exercitationem minus voluptatum dolore a ipsam.</p>
+<p>Illo, consectetur perferendis facilis iure fugit sed a architecto delectus perspiciatis esse. Blanditiis, laborum, commodi temporibus repudiandae saepe ea nesciunt. Autem, pariatur voluptas iste laboriosam quam ipsam necessitatibus sunt quo?</p>
+<p>Possimus, accusantium, sit iure nihil delectus aliquid esse quos maxime molestiae reiciendis illum atque eveniet error dolorum autem ut similique odit ullam dolore adipisci sed facere libero vitae ad voluptatibus.</p>
+<p>Tempore, amet, iusto explicabo placeat totam perferendis doloremque soluta nostrum impedit laborum labore aut tenetur esse iure alias quia quaerat ut omnis voluptatum dolore. Ipsa optio quo dolore tempore molestias.</p>
+<p>Voluptatum, eos, quis, amet fuga eveniet odit sequi reprehenderit quam ducimus tempore placeat nobis animi non sit enim dolorem iste reiciendis totam a ea modi obcaecati minima aut recusandae nulla!</p>
+<p>Reprehenderit distinctio neque asperiores nihil. Ex, accusamus non fuga voluptatem. Natus, quod, eum reprehenderit repudiandae corrupti rem tempore obcaecati iste sit ad. Maiores eius aspernatur rerum? Odit, distinctio tempore eos.</p>
+<p>Molestias, consequatur, maiores obcaecati dolor nihil repellat natus asperiores architecto vitae omnis voluptatibus optio. Expedita, velit, sunt, sapiente, officia natus cumque tenetur beatae saepe iste mollitia tempora hic commodi repellat!</p>
+<p>Autem, ratione, suscipit, praesentium deserunt qui sapiente id enim molestiae distinctio rerum itaque minima officia ab optio eos! Ducimus quae maxime voluptatem totam. Voluptatum, incidunt, molestiae expedita earum esse ipsam.</p>
+{% set actors = actors.actors %}
+{% component 'actors' %}
